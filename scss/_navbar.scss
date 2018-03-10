@@ -38,7 +38,8 @@
     }
   }
 }
-@media(min-width:992px) {
+
+@media(min-width: 992px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -67,6 +68,10 @@
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+      }
+      #main-logo {
+        width: 64px;
+        height: 64px;
       }
     }
   }
