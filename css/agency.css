@@ -109,7 +109,7 @@ img::-moz-selection {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #ffffff;
+    background-color: #131029;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -119,7 +119,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #000000;
+    color: #131029;
     /*color: #fec503;*/
 }
 
@@ -133,7 +133,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #000000;
+    color: #131029;
     /*color: #fed136;*/
 }
 
@@ -192,8 +192,8 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 25px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -212,9 +212,21 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+div.header-content a.btn {
+    color: #ffffff;
+    background-color: #131029a1;
+
+}
+
+div.header-content a.btn:hover{
+    color: #ffffff;
+    background-color: #131029d4;
+
+}
+
 @media (min-width: 768px) {
     header.masthead .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 200px;
     }
 
@@ -621,7 +633,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-    background-color: #212529;
+    background-color: #131029;
     background-image: url("../img/map-image.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -715,7 +727,7 @@ ul.social-buttons li a {
     color: white;
     border-radius: 100%;
     outline: none;
-    background-color: #212529;
+    background-color: #131029;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
